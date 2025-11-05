@@ -4,7 +4,7 @@ Supervised work for train a supervised ML model to detect cloud infrastructure a
 
 ### Problem Description and dataset inspection
 
-- [ ] Dataset classification/regression model description
+- [x] Dataset classification/regression model description
 - [ ] Dataset analysis with Graphic tools
 
 ### Experiments design and results collection
@@ -17,3 +17,32 @@ Supervised work for train a supervised ML model to detect cloud infrastructure a
 
 - [ ] Best obtained model from each method comparison
 - [ ] Work conclusions
+
+## Installation and use
+
+Clone the repo
+
+```sh
+git clone https://github.com/Camilo-845/Cloud-Infrastructure-Anomaly-Detector-Supervised-ML-Model.git
+```
+
+Setup virtual environment
+
+```sh
+python -m venv env
+```
+
+activate env
+
+```sh
+## Linux
+source ./env/bin/activate
+## Windows
+.\env\Scripts/activate
+```
+
+Install libraries
+
+```sh
+pip install -r requirements.txt
+```

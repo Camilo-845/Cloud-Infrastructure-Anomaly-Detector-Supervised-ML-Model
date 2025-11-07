@@ -1,1 +1,4 @@
 kagglehub
+matplotlib
+seaborn
+pandas

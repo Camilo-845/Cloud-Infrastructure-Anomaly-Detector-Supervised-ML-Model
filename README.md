@@ -5,7 +5,7 @@ Supervised work for train a supervised ML model to detect cloud infrastructure a
 ### Problem Description and dataset inspection
 
 - [x] Dataset classification/regression model description
-- [ ] Dataset analysis with Graphic tools
+- [x] Dataset analysis with Graphic tools
 
 ### Experiments design and results collection
 

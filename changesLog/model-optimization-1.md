@@ -20,3 +20,8 @@ sintéticas. Las dos más populares en imblearn son:
    están mal clasificadas, limpiando el espacio de características.
 2. `SMOTETomek`: Combina SMOTE con Tomek Links. Después de SMOTE, busca pares de instancias de clases opuestas que son vecinos más
    cercanos (Tomek Links) y elimina la instancia de la clase mayoritaria. Esto ayuda a definir mejor el borde de decisión.
+
+## Cambio 3 Reconsiderar selección de Caracteristicas
+
+Intenta entrenar el modelo Random Forest con todas las características (antes de la selección), pero después de haber aplicado el
+balanceo y escalado. Los modelos de ensamblaje como Random Forest son bastante robustos a características no informativas.

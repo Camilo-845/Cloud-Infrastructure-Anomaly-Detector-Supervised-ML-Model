@@ -1,0 +1,9 @@
+Advertencia importante:
+
+Como mencioné anteriormente, esta modificación introduce fuga de datos (data leakage). Al ajustar el StandardScaler con los datos
+combinados de entrenamiento y prueba, el escalador "aprende" información sobre la distribución del conjunto de prueba. Esto significa
+que la evaluación de tu modelo podría ser engañosamente buena, ya que el modelo ha tenido acceso indirecto a información del conjunto
+de prueba durante una etapa de preprocesamiento.
+
+Para una evaluación de modelo rigurosa y realista, la práctica estándar es ajustar el escalador solo con los datos de entrenamiento y
+luego usar ese escalador ya ajustado para transformar tanto los datos de entrenamiento como los de prueba por separado.

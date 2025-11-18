@@ -9,14 +9,14 @@ Supervised work for train a supervised ML model to detect cloud infrastructure a
 
 ### Experiments design and results collection
 
-- [ ] Data preparation strategies description
-- [ ] Parameters adjustment experiments description
-- [ ] Final results analysis
+- [x] Data preparation strategies description
+- [x] Parameters adjustment experiments description
+- [x] Final results analysis
 
 ### Trained Models Comparison and Conclusions
 
-- [ ] Best obtained model from each method comparison
-- [ ] Work conclusions
+- [x] Best obtained model from each method comparison
+- [x] Work conclusions
 
 ## Installation and use
 
